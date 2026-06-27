@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff9966, #ff5e62);
+}
+
+/* HOME PAGE */
+
+.home-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-card {
+    width: 450px;
+    padding: 50px;
+    border-radius: 20px;
+    border: none;
+}
+
+.home-card h1 {
+    font-weight: bold;
+}
+
+/* LOGIN & REGISTER PAGES */
+
+.auth-container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.auth-card {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+}
